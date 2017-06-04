@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reynaldo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cuprum|Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:500i" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="../images/favicon-96x96.png"/>
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <script src="https://use.fontawesome.com/676bf99bc5.js"></script>
+    </head>
+    <body>
+        <div id="wrapper1">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="section1 col-sm-12 text-center animated fadeInLeft">
+                        <h1>Hello my name is <span id="namewrap">Reynaldo Martinez</span></h1>
+                        <p>I create for the web.</p>
+                    </div>
+                </div>
+        <!--CREATE NEW ROW AND TWO THREE ELEMENTS SPREAD OUT EVENLY-->
+                <div id="section1Icons">
+                    <div class="row">
+                            <div class="righticon col-6  text-left">
+                                <img src="images/webDevelopment.png" id="webDev" alt="Web Development">
+                                <p id="namewrap">Web Development</p>
+                            </div>
+
+                            <div class="lefticon col-6 text-right">
+                                <img src="images/webDesign.png" id="webDes" alt="Web Development">
+                                <p id="namewrap">Web Design</p>
+                            </div>
+                    </div>
+                </div>
+        <!-- ADD A COOL BOTTOM -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="section2t">I build elegant sites & stunning apps <span id="namewrap">that will boost your startup.</span></h1>
+                </div>
+            </div>
+
+            <div class="row pursue">
+                <div class="col-md-6 text-center pursue1">
+                    <p>I'm currently a student at Gwinnett Technical College. I'm majoring in Web Development/Design and will continue my education once graduating in the Fall of 2017.</p>
+                </div>
+
+                <div class="col-md-6 text-center pursue2">
+                    <p>After graduating i plan to attend Ga State University or Georgia Gwinnett College and pursue a Computer Science bachelor degree. My goal is to learn front-end technologies and also become a proefficent back-end Java developer.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="computer" class="text-center col-md-12">
+                    <img src="images/macCode.jpg" alt="Apple Computer" id="appleComputer">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="worksWrapper">
+            <div class="container">
+                <div class="row worksText">
+                    <div class="col-xs-12 text-center">
+                        <h1>Check out my Work!</h1>
+                        <p>Here are some the latest works i have completed. Here i am showcasing what i have completed
+                            in school and outside of school. This includes school projects and personal projects that i have worked on.
+                            Please take a look at my projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="projectsWrapper">
+                    <div class="row wks">
+                        <div class="works1 col-sm-6 col-md-3">
+                            
+                        </div>
+
+                        <div class="works2 col-sm-6 col-md-3">
+                            
+                        </div>
+
+                        <div class="works3 col-sm-6 col-md-3">
+                            
+                        </div>
+                        <div class="works4 col-sm-6 col-md-3">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="langframes text-center">
+                    <h1 class="text-center knowledge">So... <span id="namewrap">What do i know?</span></h1>
+                    <div class="row grid-row logos">
+                        <div class="col-md-4">
+                            <img src="images/php.png" id="php"alt="PHP Logo">
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="images/html.png" id="html" alt="HTML Logo">
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="images/javascript.png" id="javascript" alt="JAVASCRIPT Logo">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="atlantaBack text-center">
+                    <div class="row">
+                        <div class="ATL">
+                            <h1>I live in the amazing Atlanta, Georgia!</h1>
+                            <p>Please contact me if you have any question.</p>
+
+                        <!-- MODAL START-->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">Request For Information</button>
+                        <!-- Modal -->
+                        <div class="modal fade slide left" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p class="lead">Question?</p>
+                                    <form method="post" id="myForm">
+                                    <div class="form-group">
+                                        <label for="name" class="formText">Name:</label>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" value="" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Subject:</label>
+                                        <input type="email" name="subject" id="email" class="form-control" placeholder="Email" value="" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment">Your Comment:</label>
+                                        <textarea class="form-control" id="comment" name="comment" maxlength="255" required></textarea>
+                                    </div>
+                                    
+                                    <div class="modalButton">
+                                        <button class="btn btn-primary ">Submit</button>
+                                    </div>
+
+                                    </form>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                        &nbsp;
+                        <a href="https://www.linkedin.com/in/reynaldo-martinez-00699294/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        &nbsp;
+                        <a href="https://github.com/reynaldomartinez"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                        &nbsp;
+                        <a href="https://gitlab.com/reynaldom"><i class="fa fa-gitlab fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+</html>
